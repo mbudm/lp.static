@@ -19,13 +19,14 @@ jQuery(document).ready(function ($) {
 	);
 
 	
-	var previewer = templateUrl + "/includes/product-previewer.php";
-	// Load full image or preview file on click
+	
+	// Load full image on click
 	$("a.productPreview").live('click', function(e) {
 		e.preventDefault();
 		var previewTitle = $(this).attr('oldtitle');
-		//$.modal('<img src=' + $(this).attr('href') + ' />',{
-		$.modal('<h2>'+previewTitle+'</h2><iframe src="'+ previewer + '?c=' + $(this).attr('href') + '" >',{
+		var href = $(this).attr('href');
+		
+		$.modal('<h2>'+previewTitle+'</h2><img src="' + href + '" />',{
 			opacity:80,
 			maxHeight:'90%',
 			maxWidth:'90%',

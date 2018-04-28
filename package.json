@@ -1,0 +1,15 @@
+{
+  "name": "lp",
+  "version": "1.0.0",
+  "description": "linguaposta.com static site",
+  "main": "index.js",
+  "repository": "https://github.com/mbudm/lp.static.git",
+  "author": "Steve Roberts <mbudm.com@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "6.5.3"
+  },
+  "scripts": {
+    "serve": "serve ./public"
+  }
+}
