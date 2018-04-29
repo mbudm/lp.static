@@ -1802,8 +1802,8 @@ a.removeProduct:hover, #simplemodal-container a.modalCloseImg:hover {
 #comments_template .vcard .says {
   display: none;
 }
-#comments_template a.comment-reply-link {
-  font-size: 0.8em;
+#comments_template .reply {
+  display:none;
 }
 #comments_template .children {
   margin-left: 75px;
@@ -1812,16 +1812,10 @@ a.removeProduct:hover, #simplemodal-container a.modalCloseImg:hover {
   margin-left: 0;
 }
 #comments_template p#comment-prompt {
-  color: #999;
-  font-weight: bold;
-  margin: 1em 0;
+  display:none;
 }
 #comments_template #respond {
-  border-top: 4px solid #b3b3b3;
-  padding-top: 1em;
-}
-#commentform{
-	padding-top:0.5em;
+  display:none;
 }
 
 /* simple modal */
