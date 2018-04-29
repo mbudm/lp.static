@@ -7,9 +7,13 @@
   "author": "Steve Roberts <mbudm.com@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "serve": "6.5.3"
+    "dotenv": "^5.0.1",
+    "serve": "6.5.3",
+    "vinyl-fs": "^3.0.2",
+    "vinyl-ftp": "^0.6.1"
   },
   "scripts": {
-    "serve": "serve ./public"
+    "serve": "serve ./public",
+    "deploy": "node deploy.js"
   }
 }
