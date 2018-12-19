@@ -2052,12 +2052,6 @@ Except when a subcol of col7 or col8 (these are 0.75 in full size mode)
   	 font-size:1em;
   	 line-height:1em;
   }
-  ul#product-promo.simple_cycle .product-holder img.attachment-product-large {
-    display: inline;
-  }
-  ul#product-promo.simple_cycle .product-holder img.attachment-product-medium {
-    display: none;
-  }
   #product-promo-wrapper a.navitem {
     right: -20px;
   }
@@ -2181,6 +2175,22 @@ Except when a subcol of col7 or col8 (these are 0.75 in full size mode)
   }
   #product-promo-wrapper .slider-content ul#product-promo .product-info {
     width: 278px;
+  }
+  ul#product-promo.simple_cycle {
+    height: 680px;
+  }
+  ul#product-promo.simple_cycle li {
+    height: 680px;
+  }
+  ul#product-promo.simple_cycle .product-holder{
+  	width:auto;
+  	height: 680px;
+  }
+  ul#product-promo.simple_cycle .product-holder img.attachment-product-large {
+    display: inline;
+  }
+  ul#product-promo.simple_cycle .product-holder img.attachment-product-medium {
+    display: none;
   }
   #product-promo-wrapper a.navitem {
     right: -50px;
