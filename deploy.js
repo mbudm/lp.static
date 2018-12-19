@@ -16,7 +16,8 @@ var conn = new ftp({
     parallel: 10,
     log: logPuts
 } );
- 
+
+var destPath = process.env.FTP_DEST_PATH || '/'
 fs.src( [ './public/**' ], { buffer: false } )
     .pipe( conn.newer( '/' ) ) 
-    .pipe( conn.dest( '/' ) );
+    .pipe( conn.dest( destPath ) );
